@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    color: var(--cm);
+    background: var(--bk);
+    padding: 20px;
+    box-shadow: inset var(--cm) 0 0 5px;
+}
