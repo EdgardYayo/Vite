@@ -4,7 +4,10 @@
     align-items: center;
     width: 100vw;
     color: var(--cm);
+    font-weight: 600;
     background: var(--bk);
     padding: 20px;
-    box-shadow: inset var(--cm) 0 0 5px;
+    border: 2px var(--cm) solid;
+    border-radius: 20px;
+    box-shadow: inset var(--cm) 0 0 10px;
 }

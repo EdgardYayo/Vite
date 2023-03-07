@@ -7,6 +7,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    margin:auto 50px;
+    width: fit-content;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    color: var(--aq3);
+    text-shadow: 0 0 5px var(--bk);
+}
+
+.content h3 {
+    color: var(--bk);
+    text-shadow: 0 0 2px var(--cm);
 }
 
 

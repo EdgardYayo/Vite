@@ -3,15 +3,16 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background:var(--aq3);
+    background:var(--bk);
     height: 80vh;
     width: fit-content;
     padding: 20px 5px;
     border-radius: 20px;
-    border: 5px white solid;
+    border: 2px var(--cm) solid;
     box-shadow: inset var(--cm) 0 0 10px;
 }
 
 .container > button {
-    transform: rotate(-5deg);
+    color: var(--cm);
+    background: transparent;
 }
