@@ -1,25 +1,18 @@
-import { useState } from "react";
 import "./App.css";
 import Home from "./components/Home/Home";
-import { gql, useQuery } from "@apollo/client";
+import { Routes, Route } from "react-router-dom";
+import Persons from "./components/Persons/Persons";
 
-const ALL_PERSONS = gql`
-  query {
-    allPersons {
-      name
-      age
-      nationality
-    }
-  }
-`
+
 
 function App() {
 
-  const { data, error, loading } = useQuery(ALL_PERSONS)
-
   return (
     <div className="App">
-      <Home/>
+      <Routes>
+        <Route default path='/' element={<Home/>} />
+        <Route path="/persons" element={<Persons/>} />
+      </Routes>
     </div>
   );
 }

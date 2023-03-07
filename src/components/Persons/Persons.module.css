@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background: var(--cm);
+    padding: 10px 70px;
+    border: 2px var(--aq3) solid;
+    border-radius: 20px;
+    filter: blur(1px);
+    transition: all ease-in-out 250ms;
+}
+
+.content section:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--cm);
+    filter: blur(0) contrast(120%);
+}
