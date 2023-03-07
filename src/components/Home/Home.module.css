@@ -1,0 +1,12 @@
+.cont > div {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
