@@ -5,6 +5,15 @@
 }
 
 
-.trickWrapper {
-    width: 100%;
+.trickWrapper {   
+    width: fit-content;
+    border: 3px var(--cm) solid;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 15px;
+    margin-block: 10px;
+}
+
+.trickWrapper > p {
+    word-break: break-all;
 }

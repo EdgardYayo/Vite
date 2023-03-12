@@ -22,12 +22,14 @@ const Tricks = () => {
 return (
     <article className={style.container}>
         <NavBar/>
+        <section>
         { data && data.allTricks?.map((trick) => (
             <aside className={style.trickWrapper}>
                 <h2>{trick.language}</h2>
                 <p>{trick.trick}</p>
             </aside>
         ))}
+        </section>
 
     </article>
 )

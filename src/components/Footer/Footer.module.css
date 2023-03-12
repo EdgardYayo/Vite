@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: auto;
     color: var(--cm);
     font-weight: 600;
     background: var(--bk);
@@ -10,4 +10,14 @@
     border: 2px var(--cm) solid;
     border-radius: 20px;
     box-shadow: inset var(--cm) 0 0 10px;
+}
+
+.container > p {
+    transition: all ease 500ms;
+}
+
+.container > p:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 3px var(--aq3);
+    transform: scale(1.1);
 }

@@ -20,7 +20,7 @@ const NavBar = () => {
     }
 
     return (
-        <nav className={style.container}>
+        <nav className={style.container} >
             <button onClick={() => handleBiotechs()}>
                 Biotechs
             </button>

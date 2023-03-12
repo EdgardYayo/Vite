@@ -18,6 +18,9 @@ const Content = () => {
     
     return (
         <div className={style.content}>
+            <header>
+                <h1>Prepare to see random content</h1>
+            </header>
          { data && data.allBiotechs?.map((bio) => (
             <section>
                 <h1>{bio.name}</h1>
