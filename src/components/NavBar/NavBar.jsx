@@ -14,6 +14,10 @@ const NavBar = () => {
     const handlePersons = () => {
         navigate("/persons")
     }
+    
+    const handleTricks = () => {
+        navigate("/tricks")
+    }
 
     return (
         <nav className={style.container}>
@@ -23,7 +27,9 @@ const NavBar = () => {
             <button onClick={() => handlePersons()}>
                 Persons
             </button>
-            <button>Other thing</button>
+            <button onClick={() => handleTricks()}>
+                Tricks
+            </button>
         </nav>
     )
 }

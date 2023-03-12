@@ -1,19 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import Persons from './components/Persons/Persons';
+import Tricks from './components/Tricks/Tricks';
 import './index.css'
 import { ApolloClient,HttpLink, InMemoryCache, gql, ApolloProvider } from '@apollo/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Persons from './components/Persons/Persons';
 
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<App/>
+    element: <App/>
   },
   {
     path:"/persons",
     element: <Persons/>
+  },
+  {
+    path:"/tricks",
+    element: <Tricks/>
   }
 ])
 
